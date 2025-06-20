@@ -1,14 +1,7 @@
-import Head from "next/head";
-
 export default function Home() {
   return (
-    <div>
-      <Head>
-        <title>MemoVault</title>
-      </Head>
-      <main>
-        <h1>Welcome to MemoVault</h1>
-      </main>
+    <div style={{ display: 'flex', minHeight: '100vh', justifyContent: 'center', alignItems: 'center', fontFamily: 'Arial', fontSize: '24px' }}>
+      Welcome to MemoVault 🧠
     </div>
-  );
+  )
 }
